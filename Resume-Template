@@ -1,0 +1,171 @@
+\documentclass[letterpaper,11pt]{article}
+
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage{fancyhdr}
+\usepackage[english]{babel}
+\usepackage{tabularx}
+
+\pagestyle{fancy}
+\fancyhf{}
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+% Adjust margins
+\addtolength{\oddsidemargin}{-0.5in}
+\addtolength{\evensidemargin}{-0.5in}
+\addtolength{\textwidth}{1in}
+\addtolength{\topmargin}{-.5in}
+\addtolength{\textheight}{1.0in}
+
+\urlstyle{same}
+
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+% Sections formatting
+\titleformat{\section}{
+  \vspace{-4pt}\scshape\raggedright\large
+}{}{0em}{}[\color{black}\titlerule \vspace{-5pt}]
+
+%-------------------------
+% Custom commands
+\newcommand{\resumeItem}[2]{
+  \item\small{
+    \textbf{#1}{#2 \vspace{-2pt}}
+  }
+}
+
+\newcommand{\resumeSubheading}[4]{
+  \vspace{-1pt}\item
+    \begin{tabular*}{0.97\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & #2 \\a
+      \textit{\small#3} & \textit{\small #4} \\
+    \end{tabular*}\vspace{-5pt}
+}
+
+\newcommand{\resumeSubSubheading}[2]{
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \textit{\small#1} & \textit{\small #2} \\
+    \end{tabular*}\vspace{-5pt}
+}
+
+\newcommand{\resumeSubItem}[2]{\resumeItem{#1}{#2}\vspace{-4pt}}
+
+\renewcommand{\labelitemii}{$\circ$}
+
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=*]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+\newcommand{\resumeItemListStart}{\begin{itemize}}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
+
+%-------------------------------------------
+%%%%%%  CV STARTS HERE  %%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+\begin{document}
+
+%----------HEADING-----------------
+\begin{tabular*}{\textwidth}{l@{\extracolsep{\fill}}r}
+  \textbf{\href{http://yashodhanagnihotri.tk/}{\Large Yashodhan Agnihotri}} & Email : \href{mailto:work.yashodhaniiitp@gmail.com}{work.yashodhaniiitp@gmail.com}\\
+  \href{http://yashodhanagnihotri.tk}{http://yashodhanagnihotri.tk} & Mobile : +91 7745833798 \\
+\end{tabular*}
+
+
+%-----------EDUCATION-----------------
+\section{Education}
+  \resumeSubHeadingListStart
+    \resumeSubheading
+      {Indian Institute of Information Technology, Pune}{Pune, India}
+      {Bachelor of Technology in Computer Science ; GPA : 6.23}{Aug. 2017 -- Present}
+      \resumeSubheading
+      {Late P.B.Jog Junior College, Pune}{Pune, India}
+      {HSC Board Maharashtra ; 84.7\%}{Aug. 2015 -- March 2017}
+  \resumeSubHeadingListEnd
+
+
+%-----------EXPERIENCE-----------------
+\section{Experience}
+  \resumeSubHeadingListStart
+    \resumeSubheading
+      {Laurus Infosystems}{Bangalore, India}
+      {SDE Intern}{May 2019 - July 2019}
+      \resumeItemListStart
+        \resumeItem{Apache Maven}
+          { : Apache Maven is a software project management and comprehension tool. During my project, I worked with libraries like PDFBox, JUnit and Guava to build a Web Application running on JBoss Server with MySQL Database.}
+        \resumeItem{Spring Framework}
+          { : The Spring Framework is an application framework and inversion of control container for the Java platform.}
+      \resumeItemListEnd
+      \resumeSubheading
+      {Gadre Infotech}{Ratnagiri, India}
+      {Project Intern}{May 2018 - July 2018}
+      \resumeItemListStart
+        \resumeItem{C\#}
+          { : Developed a small-scale Homeopathy doctor's clinic application used to store a person's medical history.}
+        \resumeItem{MySQL}
+          { : The database used for the application was MySQL.}
+      \resumeItemListEnd
+      \resumeSubHeadingListEnd
+
+%-----------PROJECTS-----------------
+\section{Projects}
+  \resumeSubHeadingListStart
+    \resumeSubItem{Funskool Mastermind}{ : Digital Version of Colour Guessing Game using Tkinter and Python 3.7}
+      \resumeSubItem{FIFA Net}{ : Used SVM Model and ML Classification algorithms to predict player growth on FIFA Datasets}
+    \resumeSubItem{Automated Paper Evaulation}{ : Used NLP to auto-evaluate an answer sheet based on keywords and answer length.}
+    \resumeSubItem{Online Treasure Hunt}{ : Used HTML5, CSS3, Bootstrap for Front-End and Django for Back-End in this Website.}
+  \resumeSubHeadingListEnd
+
+%--------PROGRAMMING SKILLS------------
+\section{Skills}
+ \resumeSubHeadingListStart
+     \resumeSubItem{Languages}{ : Python, Javascript, C++, SQL, Java}
+     \resumeSubItem{Technologies}{ : DevOps, HTML5, CSS3 , Bootstrap, React, LaTex , Maven, Algorithms}
+ \resumeSubHeadingListEnd
+ 
+ %--------ACHIEVEMENTS------------
+ \section{Achievements}
+ \resumeSubHeadingListStart
+    \resumeSubItem{All India Rank 81 as part of team load(iiit\_pune) in Google Hash Code 2020 QR}{}
+    \resumeSubItem{College Rank 2 in ACM-ICPC Online Round 2019}{}
+    \resumeSubItem{Scored 174/360 with an All India Rank 15457 in JEE Main 2017}{}
+    \resumeSubItem{Problem Setter at Infinity 2k19 hosted on Codechef}{}
+ \resumeSubHeadingListEnd
+ 
+ %---------Languages---------
+ \section{Languages}
+ \resumeSubHeadingListStart
+    \resumeSubItem{English}{ : Full Professional Proficiency}
+    \resumeSubItem{German}{ : Limited Working Proficiency (A1)}
+    \resumeSubItem{Marathi}{ : Native Speaker}
+    \resumeSubItem{Hindi}{ : Limited Working Proficiency}
+ \resumeSubHeadingListEnd
+ 
+ %--------POSITIONS OF RESPONSIBILITY------------
+ \section{Other}
+ \resumeSubHeadingListStart
+    \resumeSubItem{}{Vice-Captain of IIIT Pune Football Team}
+    \resumeSubItem{}{Chief Organizing Committee Member of I-Conclave 19'}
+    \resumeSubItem{}{Chief Organizing Committee Member of Eklavya 18'}
+    \resumeSubItem{}{Writer for Institution for Welfare of the Blind : Niwant}
+ \resumeSubHeadingListEnd
+ 
+  %--------Links------------
+ \section{Links}
+ \resumeSubHeadingListStart
+     \resumeSubItem{Codechef}{: https://codechef.com/users/zappelectro}
+     \resumeSubItem{Github}{: https://github.com/zappelectro}
+     \resumeSubItem{Leetcode}{: https://leetcode.com/zappelectro}
+ \resumeSubHeadingListEnd
+
+
+%-------------------------------------------
+\end{document}
